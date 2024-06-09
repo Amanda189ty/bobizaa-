@@ -14,7 +14,7 @@ text = args.join(' ')}
 if (!text && m.quoted && m.quoted.text) text = m.quoted.text
 try {      
 let result = await translate(`${text}`, { to: lang, autoCorrect: true })
-await m.reply('━━😄 مرحبا صديقي تابعني على الانستغرام \n instagram.com/noureddine_ouafy\n\n\n\n' + result.text)
+await m.reply( \n\n\n\n\n' + result.text)
 } catch {
 try {    
 let lol = await fetch(`https://api.lolhuman.xyz/api/translate/auto/${lang}?apikey=85faf717d0545d14074659ad&text=${text}`)
@@ -26,5 +26,5 @@ await m.reply('*مشكلة أعد المحاولة لاحقا *')
 }}}
 handler.help = ["translate"]
 handler.tags = ["tools"]
-handler.command = /^(translate|tr)$/i
+handler.command = /^(tarjim|tr)$/i
 export default handler
