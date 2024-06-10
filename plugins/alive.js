@@ -15,3 +15,6 @@ handler.command = /^(alive)$/i
 
 
 export default handler
+
+
+conn.sendMessage(m.chat, {audio: { url: 'https://a.uguu.se/bHKLYPKH.mp3' }, mimetype:'audio/mpeg', ptt:true }, {quoted:m})
