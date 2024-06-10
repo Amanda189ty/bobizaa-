@@ -11,8 +11,8 @@ let image = res.getRandom()
 let link = image
 conn.sendFile(m.chat, link, 'error.jpg', `*❀ꪑꪖ𝘳ᧁꪖ𝘳𝓲𝓽ꪖ✾*` , m) 
 }
-handler.help = ['image']
+handler.help = ['i']
 handler.tags = ['downloader']
-handler.command = /^(img)$/i
+handler.command = /^(i)$/i
 
 export default handler
