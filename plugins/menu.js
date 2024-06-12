@@ -1,48 +1,182 @@
+//import db from '../lib/database.js'
 import { promises } from 'fs'
 import { join } from 'path'
 import fetch from 'node-fetch'
 import { xpRange } from '../lib/levelling.js'
 //import { plugins } from '../lib/plugins.js'
 let tags = {
-  'morocco':'  ‎أوامر للمغاربة',
-  'applications':'‎ أوامر التطبيقات‎',
-  'drawing':'‎ توليد الصور‎ أوامر' ,
-  'ai':'‎ الذكاء الاصطناعي‎ أوامر',
-  'infobot':'‎ معلومات البوت‎',
-  'downloader':'‎ أوامر التحميلات',
-  'anime':'‎ أوامر عن  الأنيم',
-  'islam':'‎ الدين هو الاسلام‎',
-  'owner':'‎ اوامر صاحب البوت',
-  'search':'‎ أوامر البحث',
-  'audio-changer':'‎ تعديل الصوتيات‎',
-  'sticker':'‎ أوامر الملصقات',
-  'image-edit':'‎ تعديل الصور',
-  'pdf':'‎ pdf ومشتقاته‎',
-  'uploader':'‎‎ رفع الملفات‎',
+
 }
 const defaultMenu = {
-  before: `السلام عليكم 👋. 
+  before: `
+┍───━━━━━━───╍⪼
+┆ ❑ BOBIZA BOT ❏
+┕───━━━━━━───╍⪼
+╭╼⪼ SALAM *%name* 
+父 *𝑻𝒐𝒕𝒂𝒍 𝑼𝒔𝒆𝒓:* %totalreg 
+父 *𝑼𝒑𝒕𝒊𝒎𝒆:* %muptime 
+父 *𝑪𝒓𝒆𝒂𝒕𝒐𝒓* NOUREDDINE
+╰─────────────⪼
+────────────────────────────────────────────
 
-┏━━ salam  *%name*
-👥 *Total user:* %totalreg 
-⏰ *Uptime:* %muptime  
-┗━━━━━━━━━━⬣
+────────────────────────────────────────────
 %readmore
-  ≡ *B O B I Z A | M E N U*
+Ⓛ =  ʟɪᴍɪᴛ/ᴅɪᴀᴍᴏɴᴅs
+Ⓟ = ᴘʀᴇᴍɪᴜᴍ
+--------------------------------------------------------------------------------------------------------------
+
+  ≡ *​ 🅜🅔🅝🅤*
 `.trimStart(),
-  header: '┏━━⊜ *_%category_* ',
+  header: '┏━━⊜ *_%category_* ━⊜',
   body: '┃⋄ %cmd %isdiamond %isPremium',
   footer: '┗━━━━━━━━⬣\n',
-  after: '*إستخدامك للبوت بشكل صحيح يعني أنك تزيد من إحتمالية أن يبقى البوت شغالا لمدة أطول . لذا إن واجهتك أي مشكلة لا تخجل من سؤال صاحب البوت .رقمه سوف تجده في الأسفل + شارك فيديوهات صاحب البوت تشجيعا له ان كان هذا البوت قد نال إعجابك*\n+212777532483',
+  after: '♥',
 }
 let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
+let nao = await conn.sendMessage(m.chat, {text: '___________________🚂🚃🚃🚃'})
+
+ await conn.relayMessage(m.chat, {
+      protocolMessage: {
+        key: nao.key,
+        type: 14,
+        editedMessage: {
+        conversation: '________________🚂🚃🚃🚃___'
+       }
+      }
+    }, {})
+    await conn.relayMessage(m.chat, {
+      protocolMessage: {
+        key: nao.key,
+        type: 14,
+        editedMessage: {
+        conversation: '_____________🚂🚃🚃🚃______'
+       }
+      }
+    }, {})
+    await conn.relayMessage(m.chat, {
+      protocolMessage: {
+        key: nao.key,
+        type: 14,
+        editedMessage: {
+        conversation: '__________🚂🚃🚃🚃_________'
+       }
+      }
+    }, {})
+    await conn.relayMessage(m.chat, {
+      protocolMessage: {
+        key: nao.key,
+        type: 14,
+        editedMessage: {
+        conversation: '_______🚂🚃🚃🚃____________'
+       }
+      }
+    }, {})
+    await conn.relayMessage(m.chat, {
+      protocolMessage: {
+        key: nao.key,
+        type: 14,
+        editedMessage: {
+        conversation: '____🚂🚃🚃🚃_______________'
+       }
+      }
+    }, {})
+    await conn.relayMessage(m.chat, {
+      protocolMessage: {
+        key: nao.key,
+        type: 14,
+        editedMessage: {
+        conversation: '_🚂🚃🚃🚃__________________'
+       }
+      }
+    }, {})
+    await conn.relayMessage(m.chat, {
+      protocolMessage: {
+        key: nao.key,
+        type: 14,
+        editedMessage: {
+        conversation: '🚃🚃_____________________'
+       }
+      }
+    }, {})
+    await conn.relayMessage(m.chat, {
+      protocolMessage: {
+        key: nao.key,
+        type: 14,
+        editedMessage: {
+        conversation: '________________________'
+       }
+      }
+    }, {})
+    await conn.relayMessage(m.chat, {
+      protocolMessage: {
+        key: nao.key,
+        type: 14,
+        editedMessage: {
+        conversation: '「 B O B II Z A 」'
+       }
+      }
+    }, {})
+    await conn.relayMessage(m.chat, {
+      protocolMessage: {
+        key: nao.key,
+        type: 14,
+        editedMessage: {
+        conversation: '「 B O B I Z A 」'
+       }
+      }
+    }, {})
+    await conn.relayMessage(m.chat, {
+      protocolMessage: {
+        key: nao.key,
+        type: 14,
+        editedMessage: {
+        conversation: '「 B O B I Z A」'
+       }
+      }
+    }, {})
+ await conn.relayMessage(m.chat, {
+      protocolMessage: {
+        key: nao.key,
+        type: 14,
+        editedMessage: {
+        conversation: '「 B O B I Z A」'
+       }
+      }
+    }, {})   
+    await conn.relayMessage(m.chat, {
+      protocolMessage: {
+        key: nao.key,
+        type: 14,
+        editedMessage: {
+        conversation: '「 B O B I Z A▨ 」'
+       }
+      }
+    }, {})   
+    await conn.relayMessage(m.chat, {
+      protocolMessage: {
+        key: nao.key,
+        type: 14,
+        editedMessage: {
+        conversation: '「 BOBIZA BOT」'
+       }
+      }
+    }, {})   
+    await conn.relayMessage(m.chat, {
+      protocolMessage: {
+        key: nao.key,
+        type: 14,
+        editedMessage: {
+        conversation: '「 Loading menu 」'
+       }
+      }
+    }, {})   
   try {
     let _package = JSON.parse(await promises.readFile(join(__dirname, '../package.json')).catch(_ => ({}))) || {}
     let { exp, diamond, level, role } = global.db.data.users[m.sender]
     let { min, xp, max } = xpRange(level, global.multiplier)
     let name = await conn.getName(m.sender)
     let d = new Date(new Date + 3600000)
-    let locale = 'ar'
+    let locale = 'id'
     // d.getTimeZoneOffset()
     // Offset -420 is 18.00
     // Offset    0 is  0.00
@@ -64,14 +198,14 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
       minute: 'numeric',
       second: 'numeric'
     })
-    let _uptime = process.uptime() * 1000
+    let _uptime = process.uptime() * 5000
     let _muptime
     if (process.send) {
       process.send('uptime')
       _muptime = await new Promise(resolve => {
         process.once('message', resolve)
-        setTimeout(resolve, 1000)
-      }) * 1000
+        setTimeout(resolve, 5000)
+      }) * 5000
     }
     let muptime = clockString(_muptime)
     let uptime = clockString(_uptime)
@@ -136,34 +270,28 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
 text: text,
 contextInfo: {
 externalAdReply: {
-title: 'BOBIZA BOT ♥',
-body: "أول بوت واتساب في العالم العربي 💖",
-thumbnailUrl: 'https://telegra.ph/file/2829c7653514416d207e2.jpg',
-sourceUrl: 'https://instagram.com/noureddine_ouafy',
+title: '♥♥♥',
+body: "",
+thumbnailUrl: 'https://telegra.ph/file/27dfe370c433f44c5ad4c.jpg',
+sourceUrl: 'instagram.com/noureddine_ouafy',
 mediaType: 1,
 renderLargerThumbnail: true
 }}}, { quoted: m})
 
-    
-conn.sendMessage(m.chat, {audio: { url: https://a.uguu.se/JxrGBBLM.mp3' }, mimetype:'audio/mpeg', ptt:true }, {quoted:m}) 
-    
-    /*conn.sendFile(m.chat, 'menu.png', text.trim(), m, null, )
-    /*conn.sendButton(m.chat, text.trim(), '▢ DyLux  ┃ ᴮᴼᵀ\n▢ Sígueme en Instagram\nhttps://www.instagram.com/fg98_ff', pp, [
-      ['ꨄ︎ Apoyar', `${_p}donate`],
-      ['⏍ Info', `${_p}botinfo`],
-      ['⌬ Grupos', `${_p}gpdylux`]
-    ],m, rpl)*/
+     let vn = "./vn/miku.mp3"
 
+  conn.sendFile(m.chat, vn, "ehee.mp3", null, m, true, {
+    type: "audioMessage",
+    ptt: true,
+  });
   } catch (e) {
-    conn.reply(m.chat, '❎ هناك خطأ في لائحة الاوامر', m)
+    conn.reply(m.chat, '❎ ᴍᴀᴀғ, ᴍᴇɴᴜ ᴍᴇɴɢᴀʟᴀᴍɪ ᴋᴇsᴀʟᴀʜᴀɴ', m)
     throw e
   }
 }
-handler.help = ['menu']
-handler.tags = ['infobot']
-handler.command = ['menu','b','list'] 
-handler.register = false
-
+handler.help = ['help']
+handler.tags = ['main']
+handler.command = ['all','menu'] 
 
 export default handler
 
