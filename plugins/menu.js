@@ -10,13 +10,15 @@ let tags = {
 const defaultMenu = {
   before: `
 ┍───━━━━━━───╍⪼
-┆ ❑ SASUKE BOT ❏
+┆ ❑ BOBIZA BOT ❏
 ┕───━━━━━━───╍⪼
 ╭╼⪼ SALAM *%name* 
 父 *𝑻𝒐𝒕𝒂𝒍 𝑼𝒔𝒆𝒓:* %totalreg 
 父 *𝑼𝒑𝒕𝒊𝒎𝒆:* %muptime 
-父 *𝑪𝒓𝒆𝒂𝒕𝒐𝒓* SASUKE TECH
+父 *𝑪𝒓𝒆𝒂𝒕𝒐𝒓* NOUREDDINE
 ╰─────────────⪼
+──────────────────────────────
+
 ──────────────────────────────
 %readmore
 Ⓛ =  ʟɪᴍɪᴛ/ᴅɪᴀᴍᴏɴᴅs
@@ -119,7 +121,7 @@ let nao = await conn.sendMessage(m.chat, {text: '___________________🚂🚃🚃
         key: nao.key,
         type: 14,
         editedMessage: {
-        conversation: '「> *ساسكي للتقنية يقدم لكم بوت جديد*」'
+        conversation: '「 B O B I Z A 」'
        }
       }
     }, {})
@@ -128,7 +130,7 @@ let nao = await conn.sendMessage(m.chat, {text: '___________________🚂🚃🚃
         key: nao.key,
         type: 14,
         editedMessage: {
-        conversation: '> *「S A S U K E - T E C H」*'
+        conversation: '「 B O B I Z A」'
        }
       }
     }, {})
@@ -137,7 +139,7 @@ let nao = await conn.sendMessage(m.chat, {text: '___________________🚂🚃🚃
         key: nao.key,
         type: 14,
         editedMessage: {
-        conversation: '> *「S A S U K E - T E C H」*'
+        conversation: '「 B O B I Z A」'
        }
       }
     }, {})   
@@ -146,7 +148,7 @@ let nao = await conn.sendMessage(m.chat, {text: '___________________🚂🚃🚃
         key: nao.key,
         type: 14,
         editedMessage: {
-        conversation: '> *「S A S U K E - T E C H」*▨'
+        conversation: '「 B O B I Z A▨ 」'
        }
       }
     }, {})   
@@ -155,7 +157,7 @@ let nao = await conn.sendMessage(m.chat, {text: '___________________🚂🚃🚃
         key: nao.key,
         type: 14,
         editedMessage: {
-        conversation: '> *「S A S U K E - T E C H」*'
+        conversation: '「 BOBIZA BOT」'
        }
       }
     }, {})   
@@ -164,7 +166,7 @@ let nao = await conn.sendMessage(m.chat, {text: '___________________🚂🚃🚃
         key: nao.key,
         type: 14,
         editedMessage: {
-        conversation: '「 Loading menu ... 」'
+        conversation: '「 Loading menu 」'
        }
       }
     }, {})   
@@ -271,13 +273,12 @@ externalAdReply: {
 title: '♥♥♥',
 body: "",
 thumbnailUrl: 'https://telegra.ph/file/27dfe370c433f44c5ad4c.jpg',
-sourceUrl: 'instagram.com/sasuke-tech90',
+sourceUrl: 'instagram.com/noureddine_ouafy',
 mediaType: 1,
 renderLargerThumbnail: true
 }}}, { quoted: m})
 
-     let vn = "
-conn.sendMessage(m.chat, {audio: { url: 'https://a.uguu.se/bHKLYPKH.mp3' }, mimetype:'audio/mpeg', ptt:true }, {quoted:m})"
+     let vn = "./vn/miku.mp3"
 
   conn.sendFile(m.chat, vn, "ehee.mp3", null, m, true, {
     type: "audioMessage",
@@ -290,7 +291,7 @@ conn.sendMessage(m.chat, {audio: { url: 'https://a.uguu.se/bHKLYPKH.mp3' }, mime
 }
 handler.help = ['help']
 handler.tags = ['main']
-handler.command = ['all','menu','اوامر'] 
+handler.command = ['all','menu'] 
 
 export default handler
 
