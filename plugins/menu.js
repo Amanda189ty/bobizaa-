@@ -10,12 +10,12 @@ let tags = {
 const defaultMenu = {
   before: `
 ┍───━━━━━━───╍⪼
-┆ ❑ BOBIZA BOT ❏
+┆ ❑ SASUKE BOT ❏
 ┕───━━━━━━───╍⪼
 ╭╼⪼ SALAM *%name* 
 父 *𝑻𝒐𝒕𝒂𝒍 𝑼𝒔𝒆𝒓:* %totalreg 
 父 *𝑼𝒑𝒕𝒊𝒎𝒆:* %muptime 
-父 *𝑪𝒓𝒆𝒂𝒕𝒐𝒓* NOUREDDINE
+父 *𝑪𝒓𝒆𝒂𝒕𝒐𝒓* SASUKE TECH
 ╰─────────────⪼
 ──────────────────────────────
 %readmore
