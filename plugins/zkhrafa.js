@@ -3,9 +3,9 @@ import { JSDOM } from 'jsdom'
 let handler = async (m, { conn, text }) => {
     conn.reply(m.chat, Object.entries(await stylizeText(text ? text : m.quoted && m.quoted.text ? m.quoted.text : m.text)).map(([name, value]) => `*${name}*\n${value}`).join`\n\n`, m)
 }
-handler.help = ['زخرف']
+handler.help = ['name']
 handler.tags = ['tools']
-handler.command = /^زخرف$/i
+handler.command = /^name$/i
 
 
 export default handler
@@ -24,4 +24,3 @@ async function stylizeText(text) {
     return obj
 }
 
-conn.sendMessage(m.chat, {audio: { url: 'https://a.uguu.se/bHKLYPKH.mp3' }, mimetype:'audio/mpeg', ptt:true }, {quoted:m})
