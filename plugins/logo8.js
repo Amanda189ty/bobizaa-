@@ -4,7 +4,7 @@ let handler = async (m, { conn, args }) => {
   if (!args[0]) throw '*_أكتب نص مع هاذا الأمر لإنشاء لوغو_*\n\n *مثال الإستخدام*\n .logo8 SASUKE TECH'
   m.reply('*_جارى إنشاء لوغو لك قريبا ..._*')
   let res = `https://api.tiodevhost.my.id/api/photooxy/coffee-cup?text=${response[0]}`
-  conn.sendFile(m.chat, res, 'coffee-cu.jpg', `> *_SASUKE TECH LOGO★_* \n\n www.instagram.com/ovmar_1`, m, false)
+  conn.sendFile(m.chat, res, 'coffee-cu.jpg', `> *_SASUKE TECH LOGO★_*`, m, false)
 }
 handler.help = ['logo8'].map(v => v + ' <text>')
 handler.tags = ['maker'']
