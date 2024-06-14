@@ -13,6 +13,6 @@ conn.sendFile(m.chat, link, 'error.jpg', `> *SASUKE TECH*` , m)
 }
 handler.help = ['img']
 handler.tags = ['downloader']
-handler.command = /^(img/i/صورة/foto/image)$/i
+handler.command = /^img/i$/i
 
 export default handler
