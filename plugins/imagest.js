@@ -11,7 +11,7 @@ let image = res.getRandom()
 let link = image
 conn.sendFile(m.chat, link, 'error.jpg', `> *SASUKE TECH*` , m) 
 }
-handler.help = ['img']
+handler.help = ['img','i']
 handler.tags = ['downloader']
 handler.command = /^img/i$/i
 
