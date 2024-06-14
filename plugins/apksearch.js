@@ -10,6 +10,6 @@ let handler = async (m, { conn, text }) => {
 }
 handler.help = ['apksearch']
 handler.tags = ['applications']
-handler.command = /^(tatbi9)$/i
+handler.command = /^(apksearch)$/i
 
 export default handler
