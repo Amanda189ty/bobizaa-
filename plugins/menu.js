@@ -15,7 +15,7 @@ const defaultMenu = {
 ╭╼⪼ SALAM *%name* 
 父 *𝑻𝒐𝒕𝒂𝒍 𝑼𝒔𝒆𝒓:* %totalreg 
 父 *𝑼𝒑𝒕𝒊𝒎𝒆:* %muptime 
-父 *𝑪𝒓𝒆𝒂𝒕𝒐𝒓* NOUREDDINE
+父 *𝑪𝒓𝒆𝒂𝒕𝒐𝒓* SASUKE-TECH
 ╰─────────────⪼
 ────────────────────────────────────────────
 
@@ -272,8 +272,8 @@ contextInfo: {
 externalAdReply: {
 title: '♥♥♥',
 body: "",
-thumbnailUrl: 'https://telegra.ph/file/27dfe370c433f44c5ad4c.jpg',
-sourceUrl: 'instagram.com/noureddine_ouafy',
+thumbnailUrl: 'https://telegra.ph/file/995e8394671f50e52780f.jpg',
+sourceUrl: 'instagram.com/sasuke_tech',
 mediaType: 1,
 renderLargerThumbnail: true
 }}}, { quoted: m})
