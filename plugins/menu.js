@@ -10,7 +10,7 @@ let tags = {
 const defaultMenu = {
   before: `
 ┍───━━━━━━───╍⪼
-┆ ❑ BOBIZA BOT ❏
+┆ ❑ SASUKE BOT ❏
 ┕───━━━━━━───╍⪼
 ╭╼⪼ SALAM *%name* 
 父 *𝑻𝒐𝒕𝒂𝒍 𝑼𝒔𝒆𝒓:* %totalreg 
@@ -40,7 +40,7 @@ let nao = await conn.sendMessage(m.chat, {text: '___________________🚂🚃🚃
         key: nao.key,
         type: 14,
         editedMessage: {
-        conversation: '________________🚂🚃🚃🚃___'
+        conversation: '________________🏍️___'
        }
       }
     }, {})
@@ -49,7 +49,7 @@ let nao = await conn.sendMessage(m.chat, {text: '___________________🚂🚃🚃
         key: nao.key,
         type: 14,
         editedMessage: {
-        conversation: '_____________🚂🚃🚃🚃______'
+        conversation: '_____________🏍️______'
        }
       }
     }, {})
@@ -58,7 +58,7 @@ let nao = await conn.sendMessage(m.chat, {text: '___________________🚂🚃🚃
         key: nao.key,
         type: 14,
         editedMessage: {
-        conversation: '__________🚂🚃🚃🚃_________'
+        conversation: '__________🏍️_________'
        }
       }
     }, {})
@@ -67,7 +67,7 @@ let nao = await conn.sendMessage(m.chat, {text: '___________________🚂🚃🚃
         key: nao.key,
         type: 14,
         editedMessage: {
-        conversation: '_______🚂🚃🚃🚃____________'
+        conversation: '_______🏍️____________'
        }
       }
     }, {})
@@ -76,7 +76,7 @@ let nao = await conn.sendMessage(m.chat, {text: '___________________🚂🚃🚃
         key: nao.key,
         type: 14,
         editedMessage: {
-        conversation: '____🚂🚃🚃🚃_______________'
+        conversation: '____🏍️_______________'
        }
       }
     }, {})
@@ -85,7 +85,7 @@ let nao = await conn.sendMessage(m.chat, {text: '___________________🚂🚃🚃
         key: nao.key,
         type: 14,
         editedMessage: {
-        conversation: '_🚂🚃🚃🚃__________________'
+        conversation: '_🏍️__________________'
        }
       }
     }, {})
@@ -94,7 +94,7 @@ let nao = await conn.sendMessage(m.chat, {text: '___________________🚂🚃🚃
         key: nao.key,
         type: 14,
         editedMessage: {
-        conversation: '🚃🚃_____________________'
+        conversation: '🏍️_____________________'
        }
       }
     }, {})
