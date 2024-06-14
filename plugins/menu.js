@@ -112,7 +112,7 @@ let nao = await conn.sendMessage(m.chat, {text: '___________________🚂🚃🚃
         key: nao.key,
         type: 14,
         editedMessage: {
-        conversation: '「 B O B II Z A 」'
+        conversation: '「 S A S UU K E 」'
        }
       }
     }, {})
@@ -121,7 +121,7 @@ let nao = await conn.sendMessage(m.chat, {text: '___________________🚂🚃🚃
         key: nao.key,
         type: 14,
         editedMessage: {
-        conversation: '「 B O B I Z A 」'
+        conversation: '「 S A S U K E 」'
        }
       }
     }, {})
@@ -130,7 +130,7 @@ let nao = await conn.sendMessage(m.chat, {text: '___________________🚂🚃🚃
         key: nao.key,
         type: 14,
         editedMessage: {
-        conversation: '「 B O B I Z A」'
+        conversation: '「 S A S U K E」'
        }
       }
     }, {})
@@ -139,7 +139,7 @@ let nao = await conn.sendMessage(m.chat, {text: '___________________🚂🚃🚃
         key: nao.key,
         type: 14,
         editedMessage: {
-        conversation: '「 B O B I Z A」'
+        conversation: '「 S A S U K E」'
        }
       }
     }, {})   
@@ -148,7 +148,7 @@ let nao = await conn.sendMessage(m.chat, {text: '___________________🚂🚃🚃
         key: nao.key,
         type: 14,
         editedMessage: {
-        conversation: '「 B O B I Z A▨ 」'
+        conversation: '「 S A S U K E▨ 」'
        }
       }
     }, {})   
@@ -157,7 +157,7 @@ let nao = await conn.sendMessage(m.chat, {text: '___________________🚂🚃🚃
         key: nao.key,
         type: 14,
         editedMessage: {
-        conversation: '「 BOBIZA BOT」'
+        conversation: '「 SASUKE BOT」'
        }
       }
     }, {})   
