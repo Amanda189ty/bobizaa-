@@ -49,6 +49,6 @@ let handler = async m => {
 handler.help = ['shazam']
 handler.tags = ['search']
 handler.command = /^quemusica|shazam|whatmusic$/i
-
+handler.limit = false
 // تصدير الدالة handler كافتراضي
 export default handler
