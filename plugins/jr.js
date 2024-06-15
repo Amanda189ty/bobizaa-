@@ -1,6 +1,6 @@
 let handler = async (m, { conn, usedPrefix, command }) => {
 		
-			await conn.sendMessage(m.chat, { video: { url: dir[Math.floor(Math.random() * dir.length)] }, caption: ` > *SASUKE TECH* _NEYMAR JR🐦‍🔥_` }, { quoted: m })
+			await conn.sendMessage(m.chat, { photo: { url: dir[Math.floor(Math.random() * dir.length)] }, caption: ` > *SASUKE TECH* _NEYMAR JR🐦‍🔥_` }, { quoted: m })
 	}
 
 handler.help = ['Jr']
@@ -11,7 +11,6 @@ handler.limit = false
 export default handler
 
 const dir = [
-'https://telegra.ph/file/e0714128318de429b7806.mp4',
 'https://telegra.ph/file/ec1bef3b35a94152e43d7.mp4',
 'https://telegra.ph/file/c429f72d588a301286698.mp4',
 'https://telegra.ph/file/6db6d6fc7d63e3d662e5f.mp4',
